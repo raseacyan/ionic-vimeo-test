@@ -6,6 +6,10 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 
+import { ScreenOrientation } from '@awesome-cordova-plugins/screen-orientation/ngx';
+
+
+
 
 @NgModule({
   imports: [
@@ -17,3 +21,4 @@ import { HomePageRoutingModule } from './home-routing.module';
   declarations: [HomePage]
 })
 export class HomePageModule {}
+
